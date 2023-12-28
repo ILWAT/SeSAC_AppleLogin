@@ -24,6 +24,7 @@
 		DEDBB6192B3D02CA006F0CE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEDBB61C2B3D02CA006F0CE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEDBB61E2B3D02CA006F0CE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEDBB6242B3D0C31006F0CE6 /* SeSAC_AppleLogin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SeSAC_AppleLogin.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		DEDBB60F2B3D02C7006F0CE6 /* SeSAC_AppleLogin */ = {
 			isa = PBXGroup;
 			children = (
+				DEDBB6242B3D0C31006F0CE6 /* SeSAC_AppleLogin.entitlements */,
 				DEDBB6102B3D02C7006F0CE6 /* AppDelegate.swift */,
 				DEDBB6122B3D02C7006F0CE6 /* SceneDelegate.swift */,
 				DEDBB6142B3D02C7006F0CE6 /* ViewController.swift */,
@@ -290,6 +292,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SeSAC_AppleLogin/SeSAC_AppleLogin.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AYG8MBJF93;
@@ -318,6 +321,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SeSAC_AppleLogin/SeSAC_AppleLogin.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AYG8MBJF93;
