@@ -45,11 +45,12 @@ class ViewController: UIViewController {
         controller.delegate = self
         controller.presentationContextProvider = self
         controller.performRequests()
-        
-        
     }
 
-
+    @IBAction func LAAuthenticButtonClicked(_ sender: UIButton) {
+        AuthenticationManager.shared.auth()
+    }
+    
 }
 
 extension ViewController: ASAuthorizationControllerPresentationContextProviding {

@@ -17,18 +17,29 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ifK-dE-DVq" customClass="ASAuthorizationAppleIDButton">
-                                <rect key="frame" x="159" y="413.66666666666669" width="75" height="50"/>
+                                <rect key="frame" x="88.666666666666686" y="413.66666666666669" width="216" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="rBe-Vm-pyG"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="ASAuthenticationAppleID"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="81I-qx-kHX">
+                                <rect key="frame" x="10" y="473.66666666666669" width="373" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="LAAuthentic"/>
+                                <connections>
+                                    <action selector="LAAuthenticButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IaT-uE-QTw"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="81I-qx-kHX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="7oH-wY-D1m"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="81I-qx-kHX" secondAttribute="trailing" constant="10" id="Vzr-fr-ibT"/>
                             <constraint firstItem="ifK-dE-DVq" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="gEG-tU-Xbc"/>
+                            <constraint firstItem="81I-qx-kHX" firstAttribute="top" secondItem="ifK-dE-DVq" secondAttribute="bottom" constant="10" id="oQe-Pc-kkR"/>
                             <constraint firstItem="ifK-dE-DVq" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="u8Y-52-1iN"/>
                         </constraints>
                     </view>

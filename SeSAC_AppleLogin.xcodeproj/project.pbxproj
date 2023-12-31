@@ -13,6 +13,7 @@
 		DEDBB6182B3D02C7006F0CE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEDBB6162B3D02C7006F0CE6 /* Main.storyboard */; };
 		DEDBB61A2B3D02CA006F0CE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEDBB6192B3D02CA006F0CE6 /* Assets.xcassets */; };
 		DEDBB61D2B3D02CA006F0CE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEDBB61B2B3D02CA006F0CE6 /* LaunchScreen.storyboard */; };
+		DEDBB6262B3E635F006F0CE6 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDBB6252B3E635F006F0CE6 /* AuthenticationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		DEDBB61C2B3D02CA006F0CE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEDBB61E2B3D02CA006F0CE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEDBB6242B3D0C31006F0CE6 /* SeSAC_AppleLogin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SeSAC_AppleLogin.entitlements; sourceTree = "<group>"; };
+		DEDBB6252B3E635F006F0CE6 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				DEDBB6192B3D02CA006F0CE6 /* Assets.xcassets */,
 				DEDBB61B2B3D02CA006F0CE6 /* LaunchScreen.storyboard */,
 				DEDBB61E2B3D02CA006F0CE6 /* Info.plist */,
+				DEDBB6252B3E635F006F0CE6 /* AuthenticationManager.swift */,
 			);
 			path = SeSAC_AppleLogin;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEDBB6152B3D02C7006F0CE6 /* ViewController.swift in Sources */,
+				DEDBB6262B3E635F006F0CE6 /* AuthenticationManager.swift in Sources */,
 				DEDBB6112B3D02C7006F0CE6 /* AppDelegate.swift in Sources */,
 				DEDBB6132B3D02C7006F0CE6 /* SceneDelegate.swift in Sources */,
 			);
