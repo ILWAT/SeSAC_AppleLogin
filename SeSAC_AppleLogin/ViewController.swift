@@ -32,6 +32,17 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         appleLoginButton.addTarget(self, action: #selector(appleLoginButtonClicked), for: .touchUpInside)
+        
+        guard let configuration = Bundle.main.object(forInfoDictionaryKey: "CFBundleIdentifier") as? String else {
+            print("configuration info error")
+            return
+        }
+        
+        if configuration == "ILWAT-com.github.SeSAC-AppleLogin.Release" {
+            view.backgroundColor = .gray
+        } else {
+            view.backgroundColor = .green
+        }
     }
     
     @objc
